@@ -1,29 +1,57 @@
-# Garder uniquement les scripts
-/*
-!.gitignore
-!/Assets/
-!/Assets/Scripts/
+# =============== #
+# Unity Folders   #
+# =============== #
 
-# Ignorer tout sauf Scripts dans Assets
-/Assets/*
-!/Assets/Scripts/
-
-# Dossiers Unity à ignorer
-Library/
-Logs/
-Temp/
-Obj/
-Build/
-Builds/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
 UserSettings/
-ProjectSettings/
 
-# Fichiers Unity et VS à ignorer
-.vscode/
-*.csproj
-*.sln
-*.user
+# =============== #
+# OS Generated    #
+# =============== #
+
+.DS_Store
+*.swp
+*.tmp
+*.bak
 *.pidb
 *.suo
+*.user
 *.userprefs
-.DS_Store
+*.booproj
+
+# =============== #
+# Visual Studio   #
+# =============== #
+
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.sln.*
+*.suo
+
+# =============== #
+# Unity Asset Store Tools #
+# =============== #
+*.orig
+*.mdb
+
+# =============== #
+# Crash Reports   #
+# =============== #
+sysinfo.txt
+
+# =============== #
+# Ignore Collab    #
+# =============== #
+.collabignore
+
+# =============== #
+# LFS Files       #
+# =============== #
+# (Les binaires lourds, .png, .psd, .mp4, etc. doivent être suivis par Git LFS)
