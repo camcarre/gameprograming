@@ -7,7 +7,7 @@ public class GameOverManager : MonoBehaviour
     public void ReplayGame()
     {
         // Recharge la scène active du niveau principal
-        SceneManager.LoadScene(0); // ⚠️ Remplace par le nom exact de ta scène principale
+        SceneManager.LoadScene(0);
     }
 
     // Appelé par le bouton "Quitter"
