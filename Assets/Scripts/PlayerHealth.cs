@@ -7,7 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxLives = 3;
     private int currentLives;
 
-    public Image[] hearts; // à remplir dans l'Inspector avec les 3 sprites
+    public Image[] hearts; 
 
     void Start()
     {
