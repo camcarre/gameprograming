@@ -1,0 +1,29 @@
+# Garder uniquement les scripts
+/*
+!.gitignore
+!/Assets/
+!/Assets/Scripts/
+
+# Ignorer tout sauf Scripts dans Assets
+/Assets/*
+!/Assets/Scripts/
+
+# Dossiers Unity à ignorer
+Library/
+Logs/
+Temp/
+Obj/
+Build/
+Builds/
+UserSettings/
+ProjectSettings/
+
+# Fichiers Unity et VS à ignorer
+.vscode/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.suo
+*.userprefs
+.DS_Store
