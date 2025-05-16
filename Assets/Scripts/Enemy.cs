@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        // L'ennemi descend lentement
+        // enemy moves downwards
         transform.Translate(Vector2.down * speed * Time.deltaTime);
     }
 }

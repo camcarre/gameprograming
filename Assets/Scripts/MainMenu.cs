@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("SampleScene"); // nom de ta scène de jeu
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void QuitGame()
@@ -16,6 +16,6 @@ public class MainMenu : MonoBehaviour
 
     public void ShowCredits()
     {
-        SceneManager.LoadScene("Credits"); // à créer si tu veux une vraie scène de crédits
+        SceneManager.LoadScene("Credits");
     }
 }

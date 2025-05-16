@@ -1,10 +1,10 @@
 using UnityEngine;
-using TMPro; // ← ajoute ça
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public int score = 0;
-    public TMP_Text scoreText; // ← remplace "Text" par "TMP_Text"
+    public TMP_Text scoreText;
 
     public void AddScore(int points)
     {
